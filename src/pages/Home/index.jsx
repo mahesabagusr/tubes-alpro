@@ -26,7 +26,7 @@ export const HomePage = () => {
           </div>
           <div className="order-1 md:order-2 flex justify-center ">
             <img
-              src="public\images\landing-page-jumbotron.svg"
+              src="public/images/landing-page-jumbotron.svg"
               alt="Jumbotron"
               className="w-full max-w-[500px] h-auto object-contain"
             />
