@@ -3,6 +3,27 @@
 
 @custom-variant dark (&:is(.dark *));
 
+.partner-carousel {
+  --swiper-pagination-color: #000;
+  --swiper-pagination-bullet-size: 6px;
+  --swiper-pagination-bullet-inactive-color: #999;
+  --swiper-pagination-bullet-inactive-opacity: 1;
+  --swiper-pagination-bullet-horizontal-gap: 4px;
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 1rem;
+  font-weight: 400;
+
+}
+
+.swiper-pagination-bullet-active {
+  width: 20px;
+  border-radius: 4px;
+  transition: width 0.3s ease;
+}
+
 @theme inline {
   --radius-sm: calc(var(--radius) - 4px);
   --radius-md: calc(var(--radius) - 2px);
