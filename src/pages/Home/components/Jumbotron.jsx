@@ -4,7 +4,7 @@ export default function Jumbotron() {
   return (
     <section
       id="home"
-      className="relative h-[80vh] w-full px-32  text-white overflow-hidden"
+      className="relative h-[90vh] w-full px-32  text-white overflow-hidden"
     >
       <div className="absolute inset-0 bg-[url(@/assets/images/jumbotron-background.jpg)] bg-cover bg-no-repeat bg-center z-10 brightness-45"></div>
 
@@ -28,7 +28,7 @@ export default function Jumbotron() {
             </Button>
           </div>
           <div className=" flex justify-center ">
-            <img src={jumbotron} alt="Jumbotron" className=" max-w-[500px] pt-6" />
+            <img src={jumbotron} alt="Jumbotron" className=" max-w-[600px] pt-6" />
           </div>
         </div>
       </div>

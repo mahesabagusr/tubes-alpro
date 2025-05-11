@@ -1,6 +1,6 @@
 <svg width="765" height="740" viewBox="0 0 765 740" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
 <g clip-path="url(#clip0_1274_17)">
-<path d="M11.0166 747.699C11.0166 650.115 49.7816 556.528 118.784 487.526C187.786 418.524 281.373 379.759 378.957 379.759C476.54 379.759 570.127 418.524 639.129 487.526C708.131 556.528 746.896 650.115 746.896 747.699L378.957 747.699L11.0166 747.699Z" fill="#1076E5"/>
+<path d="M11.0166 747.699C11.0166 650.115 49.7816 556.528 118.784 487.526C187.786 418.524 281.373 379.759 378.957 379.759C476.54 379.759 570.127 418.524 639.129 487.526C708.131 556.528 746.896 650.115 746.896 747.699L378.957 747.699L11.0166 747.699Z" fill="url(#paint0_linear_1274_17)"/>
 <rect x="-95" y="-29" width="991" height="776.699" fill="url(#pattern0_1274_17)"/>
 <g filter="url(#filter0_d_1274_17)">
 <rect y="506" width="200" height="80" rx="10" fill="white" shape-rendering="crispEdges"/>
@@ -61,6 +61,10 @@
 <pattern id="pattern3_1274_17" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image3_1274_17" transform="scale(0.00195312)"/>
 </pattern>
+<linearGradient id="paint0_linear_1274_17" x1="746.896" y1="1115.64" x2="11.0166" y2="379.759" gradientUnits="userSpaceOnUse">
+<stop stop-color="#B826F6"/>
+<stop offset="1" stop-color="#05E4AE"/>
+</linearGradient>
 <clipPath id="clip0_1274_17">
 <rect width="765" height="740" fill="white"/>
 </clipPath>
