@@ -6,13 +6,33 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 
 export default function OurPartner() {
+  const swiperConfig = {
+    modules: [Autoplay, Navigation, Pagination],
+    autoplay: {
+      delay: 2500,
+      disableOnInteraction: false,
+      pauseOnMouseEnter: true,
+    },
+    spaceBetween: -50,
+    slidesPerView: 5,
+    loop: true,
+    pagination: {
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+  };
+
   return (
     <section
       id="partner"
-      className="bg-white text-primary-black max-w-full px-2 py-24  flex justify-center items-center"
+      className="bg-white text-primary-black h-[80vh] max-w-full px-2 py-24  flex justify-center items-center"
     >
       <div className="w-full h-full mx-auto">
-        <div className="flex flex-col justify-center items-center text-center mb-8 lg:mb-12">
+        <div className="flex flex-col justify-center items-center text-center mb-8 ">
           <h1 className="text-3xl lg:text-5xl font-bold mb-4 lg:mb-6 leading-tight">
             Partner Kami
           </h1>
@@ -23,26 +43,7 @@ export default function OurPartner() {
         </div>
 
         <div className="relative w-full px-12">
-          <Swiper
-            modules={[Autoplay, Navigation, Pagination]}
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-              pauseOnMouseEnter: true,
-            }}
-            spaceBetween={-50}
-            slidesPerView={5}
-            loop={true}
-            pagination={{
-              clickable: true,
-              dynamicBullets: true,
-            }}
-            navigation={{
-              nextEl: ".swiper-button-next",
-              prevEl: ".swiper-button-prev",
-            }}
-            className="partner-carousel"
-          >
+          <Swiper {...swiperConfig}>
             {partnerLists.map((partner, index) => (
               <SwiperSlide key={index}>
                 <div className="flex justify-center items-center h-50 bg-white">
