@@ -23,7 +23,7 @@ export default function BestTournament() {
   return (
     <section
       id="tournament"
-      className="text-white py-24 bg-[radial-gradient(circle_at_top_left,_#3b82f6,_#1e3a8a)]"
+      className="text-white py-24 bg-tournament-gradient"
     >
       <div className="max-w-7xl mx-auto">
         <div className="mb-12 text-left">
