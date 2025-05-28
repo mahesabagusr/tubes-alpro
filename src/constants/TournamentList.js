@@ -17,7 +17,7 @@ export const TournamentList = [
   {
     id: 2,
     name: "Valorant Elite Cup",
-    description: "Pertarungan elite di dunia Valorant.",
+    description: "Pertarungan elite di dunia Valorant yang menegangkan.",
     date: "2024-08-22",
     location: { city: "Surabaya", country: "Indonesia", address: "Jl. Pahlawan No. 25" },
     prizePool: 25000,
