@@ -3,8 +3,8 @@ import { Autoplay, Navigation, Pagination } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
-import TournamentCard from "@/components/TournamentCard"; // sesuaikan path komponen TournamentCard
-import { TournamentList } from "@/constants/TournamentList"; // sesuaikan path datanya
+import TournamentCard from "@/components/TournamentCard";
+import { TournamentList } from "@/constants/TournamentList";
 
 export default function BestTournament() {
   const swiperConfig = {
